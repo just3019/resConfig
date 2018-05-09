@@ -3,3 +3,4 @@ spring:
   devtools:
     restart:
       enabled: false
+foo: application
