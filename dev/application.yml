@@ -4,3 +4,10 @@ spring:
     restart:
       enabled: false
 foo: application
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
