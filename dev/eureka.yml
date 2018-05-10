@@ -1,6 +1,3 @@
 server:
   port: ${PORT:9000}
-<<<<<<< HEAD
 foo: eureka
-=======
->>>>>>> 6c5f7e8f744203b1ba4c2f5f0047fc91946069ad
