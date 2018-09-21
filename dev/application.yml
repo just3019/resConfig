@@ -2,8 +2,7 @@
 spring:
   devtools:
     restart:
-      enabled: false
-foo: application
+      enabled: true
 
 eureka:
   instance:
