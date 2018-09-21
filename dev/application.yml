@@ -4,3 +4,4 @@ spring:
     restart:
       enabled: true
 
+domain: default
