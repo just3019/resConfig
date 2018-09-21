@@ -3,5 +3,8 @@ spring:
   devtools:
     restart:
       enabled: true
+  cloud:
+    config:
+      uri: http://localhost:10000
 
 domain: default
