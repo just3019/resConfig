@@ -6,6 +6,26 @@ spring:
 
 domain: default
 
+management:
+  cloudfoundry:
+    enabled: false
+  security:
+    enabled: false
+  endpoint:
+    jolokia:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        #exclude:排除监控
+        # metrics   展示当前应用的'metrics'信息
+        # mappings  显示一个所有@RequestMapping路径的集合列表
+        # logfile   查询日志
+        # threaddump当前服务所有线程
+        # heapdump  堆信息
+        # exclude: mappings, metrics, logfile, threaddump, httptrace, auditevents, heapdump
+
 # 配置eureka客户端
 eureka:
   instance:
