@@ -7,13 +7,6 @@ spring:
 domain: default
 
 management:
-  cloudfoundry:
-    enabled: false
-  security:
-    enabled: false
-  endpoint:
-    jolokia:
-      enabled: false
   endpoints:
     web:
       exposure:
