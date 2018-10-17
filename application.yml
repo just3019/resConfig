@@ -16,7 +16,7 @@ management:
 # 配置eureka客户端
 eureka:
   instance:
-    prefer-ip-address: true
+#    prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.71:9000/eureka/
+      defaultZone: http://localhost:9000/eureka/
