@@ -16,6 +16,7 @@ management:
 # 配置eureka客户端
 eureka:
   instance:
+    hostname: localhost
 #    prefer-ip-address: true
   client:
     serviceUrl:
