@@ -1,9 +1,3 @@
-# 热部署相关
-spring:
-  devtools:
-    restart:
-      enabled: true
-
 domain: default
 
 management:
