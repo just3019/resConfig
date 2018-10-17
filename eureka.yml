@@ -2,8 +2,11 @@ server:
   port: ${PORT:9000}
 
 eureka:
+  server:
+    enableSelfPreservation:  ${SELF_PRESERVATION:false}
   instance:
-    hostname: 192.168.1.71
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
   client:
     registerWithEureka: true
     fetchRegistry: false
