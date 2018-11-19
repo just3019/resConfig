@@ -27,5 +27,3 @@ logging:
   file:
     max-history: 10
     max-size: 20M
-  level:
-    root: info
