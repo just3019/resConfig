@@ -23,3 +23,10 @@ eureka:
       defaultZone: http://eureka.luckygrra.com/eureka/
 
 logging.file: logs/${spring.application.name}.log
+logging:
+  file:
+    max-history: 10
+    max-size: 20M
+  level:
+    root: info
+    org.demon: debug
