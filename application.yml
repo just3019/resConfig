@@ -29,4 +29,3 @@ logging:
     max-size: 20M
   level:
     root: info
-    org.demon: debug
